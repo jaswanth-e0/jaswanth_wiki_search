@@ -16,7 +16,6 @@ input1.addEventListener("keydown", function(event) {
                 let {
                     search_results
                 } = data
-                console.log(data)
                 for (let i of search_results) {
                     let div1 = document.createElement("div")
                     let h1 = document.createElement("h1")
