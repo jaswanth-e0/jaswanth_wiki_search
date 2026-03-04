@@ -10,6 +10,7 @@ input1.addEventListener("keydown", function(event) {
         }
         console.log("jaswanth Naidu")
         console.log("clicked") 
+        console.log("Rama kRishna")
         fetch(url, options)
             .then(function(response) {
                 return response.json()
