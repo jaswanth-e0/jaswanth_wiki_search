@@ -9,7 +9,7 @@ input1.addEventListener("keydown", function(event) {
             methods: "GET"
         }
         console.log("jaswanth Naidu")
-        console.log("clicked") 
+        console.log("Ramesh") 
         console.log("Rama kRishna  ")
         fetch(url, options)
             .then(function(response) {
