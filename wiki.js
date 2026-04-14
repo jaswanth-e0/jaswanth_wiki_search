@@ -8,9 +8,8 @@ input1.addEventListener("keydown", function(event) {
         let options = {
             methods: "GET"
         }
-        console.log("jaswanth Naidu")
-        console.log("Ramesh") 
-        console.log("Rama kRishna  ")
+        let a=[1,2,3,4]
+        console.log(a)
         fetch(url, options)
             .then(function(response) {
                 return response.json()
