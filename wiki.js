@@ -10,6 +10,9 @@ input1.addEventListener("keydown", function(event) {
         }
         console.log("jaswanth")
         console.log("jaswanth1")
+        for(let i=1;i<5;i++){
+            console.log(i);
+        }
         let a=[1,2,3,4]
         console.log(a)
         fetch(url, options)
